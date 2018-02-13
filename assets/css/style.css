@@ -113,6 +113,8 @@ img.displayed {
     margin-right: 10px;
     float: left;
 }
+.bio {
+}
 figcaption {
     margin-top: -50px;
     background-color: teal;
@@ -206,10 +208,11 @@ and (max-width:980px) {
         float: left;
     }
     img.displayed {
-        width: 50%;
+        max-width:50%;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        float:none;
     }
 }
 
@@ -221,7 +224,8 @@ and (max-width: 768px)  {
         align-content: center;
     }
     img.displayed {
-        float: left;
+        float: none;
+        clear: both;
     }
     .sidebar {
         width: 100%;
